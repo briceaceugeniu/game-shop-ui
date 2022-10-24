@@ -1,13 +1,116 @@
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f8f8e8;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  monospace;
+}
+
+.header-txt {
+  font-family: monospace;
+  font-size: 1.25rem;
+}
+.d-flex {
+  display: flex;
+}
+
+.space-btwn {
+  justify-content: space-between;
+}
+
+.f-end {
+  justify-content: flex-end;
+}
+
+.f-d-col {
+  flex-direction: column;
+}
+
+.center-div {
+  justify-content: center;
+  align-items: center;
+}
+
+.font-xxl {
+  font-size: xxx-large;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.font-mono {
+  font-family: monospace;
+}
+
+.minH-60vh {
+  height: 60vh;
+  background-color: whitesmoke;
+  border: 3px solid #eef3eb;
+  border-radius: 6px;
+}
+
+.p-bar {
+  width: 70%;
+  height: 2rem;
+}
+
+.exp-nav {
+  background-color: inherit !important;
+  margin: 1rem;
+}
+
+.MuiTab-root {
+  text-transform: none !important;
+}
+
+.prof-forms {
+  /*overflow: scroll;*/
+  width: 100%;
+}
+
+.save-btn {
+  /*  position: absolute; Q8nu9q#WDvDSjZ */
+  /*  left: 10px;*/
+  /*  bottom: 10px;*/
+
+  margin: 10px;
+}
+
+.rank-img {
+  border: 1px solid goldenrod;
+  border-radius: 6px;
+  margin: 1px;
+  max-width: 60px;
+  max-height: 90px;
+}
+
+.m8 {
+  margin: 8px !important;
+}
+
+.fit-content {
+  max-width: fit-content;
+}
+
+.github-icon:hover {
+  cursor: pointer;
+  color: cadetblue;
+}
+
+.version-area {
+  /*position: absolute;*/
+  bottom: 0;
+  left: 0;
+  margin: 1em;
+}
+.avatar_area {
+  filter: blur(5px);
 }
