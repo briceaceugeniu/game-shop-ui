@@ -2,7 +2,7 @@ import { Box, Button, Grid, TextField } from "@mui/material";
 import React, { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
-import { API_BASE_URL, IsValidEmail } from "../helper-functions";
+import { API_BASE_URL, IsValidEmail } from "../../helper-functions";
 import Cookies from "universal-cookie";
 
 const Login = () => {

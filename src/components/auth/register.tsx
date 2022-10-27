@@ -6,7 +6,7 @@ import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 
 import axios from "axios";
 import { AlertColor } from "@mui/material/Alert/Alert";
-import { API_BASE_URL, IsValidEmail } from "../helper-functions";
+import { API_BASE_URL, IsValidEmail } from "../../helper-functions";
 
 interface InputProps {
   status: boolean;

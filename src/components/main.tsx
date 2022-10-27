@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import Cookies from "universal-cookie";
+import NavigationBar from "./navbar";
+import Carousel from "./carousel";
 
 const Main = () => {
   let navigate = useNavigate();
@@ -9,14 +11,15 @@ const Main = () => {
 
   useEffect(() => {
     if (!auth_token) {
-      navigate("/login");
+      // navigate("/login");
     }
   });
 
   return (
-    <div>
-      <h1>Main page</h1>
-    </div>
+    <>
+      <NavigationBar />
+      <Carousel />
+    </>
   );
 };
 
