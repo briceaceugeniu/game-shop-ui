@@ -8,9 +8,18 @@ const GameList = () => {
     <Container maxWidth="xl" sx={{ marginTop: "1.3em" }}>
       <Stack
         direction={{ xs: "column", sm: "row" }}
-        spacing={{ xs: 1, sm: 2, md: 4 }}
+        spacing={{ xs: 1, sm: 2, md: 3 }}
         sx={{ flexWrap: "wrap" }}
       >
+        <GameCard />
+        <GameCard />
+        <GameCard />
+        <GameCard />
+        <GameCard />
+        <GameCard />
+        <GameCard />
+        <GameCard />
+        <GameCard />
         <GameCard />
         <GameCard />
         <GameCard />
