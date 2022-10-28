@@ -8,7 +8,7 @@ const Sort = () => {
       <Autocomplete
         disablePortal
         id="combo-box-demo"
-        sx={{ width: "100%", color: "gold" }}
+        sx={{ width: "100%", color: "gold", minWidth: "210px" }}
         size="small"
         options={sortOptions}
         color="success"

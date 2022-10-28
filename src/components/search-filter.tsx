@@ -20,13 +20,13 @@ const SearchFilter = () => {
             paddingRight: "15px",
           }}
         >
-          <Grid item md={4}>
+          <Grid item md={4} xs={12}>
             <Search />
           </Grid>
-          <Grid item md={4}>
+          <Grid item md={4} xs={12}>
             <SelectCategory />
           </Grid>
-          <Grid item md={4}>
+          <Grid item md={4} xs={12}>
             <Sort />
           </Grid>
         </Grid>

@@ -22,7 +22,7 @@ const Main = () => {
       <NavigationBar />
       <Carousel />
       <SearchFilter />
-      {/*<GameList />*/}
+      <GameList />
     </>
   );
 };
