@@ -180,7 +180,6 @@ function NavigationBar() {
                 {page}
               </Button>
             ))}
-            <Search />
           </Box>
 
           <Box sx={{ flexGrow: 0 }}>

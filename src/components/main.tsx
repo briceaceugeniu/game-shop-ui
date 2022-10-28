@@ -3,6 +3,8 @@ import { useNavigate } from "react-router-dom";
 import Cookies from "universal-cookie";
 import NavigationBar from "./navbar";
 import Carousel from "./carousel";
+import GameList from "./game-list";
+import SearchFilter from "./search-filter";
 
 const Main = () => {
   let navigate = useNavigate();
@@ -19,6 +21,8 @@ const Main = () => {
     <>
       <NavigationBar />
       <Carousel />
+      <SearchFilter />
+      {/*<GameList />*/}
     </>
   );
 };

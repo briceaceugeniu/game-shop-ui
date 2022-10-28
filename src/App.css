@@ -5,3 +5,7 @@
 .carousel-img {
     width: 100%;
 }
+
+.MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] {
+    background: #e70f0f
+}
